@@ -1,0 +1,26 @@
+body {
+  width: 80%;
+  margin: 30px auto;
+  font-family: sans-serif;
+  background-color: indianred;
+
+}
+
+ul {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+
+}
+li {
+   list-style: none;
+   text-align: center;
+
+ }
+
+img {
+  height: 300px;
+  padding: 20px;
+
+};
