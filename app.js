@@ -3,7 +3,7 @@ var app = express();
 var request = require('request');
 app.set('view engine', 'ejs');
 
-// app  has two routes: search & results.
+// app has two routes: search & results.
 
 app.get('/', function(req, res){
   res.render("search");
